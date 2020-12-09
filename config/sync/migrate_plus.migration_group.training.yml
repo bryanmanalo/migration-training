@@ -1,0 +1,40 @@
+uuid: d9214c3e-6e64-4aae-ac14-4acf899f8347
+langcode: en
+status: true
+dependencies: {  }
+id: training
+label: Training
+description: ''
+source_type: 'Embedded data'
+module: null
+shared_configuration:
+  source:
+    data_rows:
+      -
+        id: 1
+        name: 'BRUNO: Injured'
+        specialty:
+          - Rollover
+          - Bark
+        breed:
+          - Chiwawa
+          - Highlander
+        description: 'A dog from Mars'
+      -
+        id: 2
+        name: 'GEORGE: Healthy'
+        specialty:
+          - Bark
+          - Fart
+        breed:
+          - German
+          - Shepherd
+        description: 'The greatest showdog from Lucas Arts.'
+      -
+        id: 3
+        name: 'BLACKIE: Healthy'
+        specialty: Rollover
+        breed:
+          - Dalmatian
+          - Chowchow
+        description: 'The white dog'

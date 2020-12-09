@@ -1,0 +1,9 @@
+name: Migrate Dogs
+type: module
+description: Base module for Dogs.
+core: '8.x'
+package: Dogs
+version: '8.x-1.0'
+dependencies:
+  - migrate_tools
+  - migrate_plus

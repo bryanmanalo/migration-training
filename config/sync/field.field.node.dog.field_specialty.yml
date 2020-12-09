@@ -1,0 +1,19 @@
+uuid: df3d0fe7-71a1-4ec2-9c7f-faff5ba8fcab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_specialty
+    - node.type.dog
+id: node.dog.field_specialty
+field_name: field_specialty
+entity_type: node
+bundle: dog
+label: Specialty
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

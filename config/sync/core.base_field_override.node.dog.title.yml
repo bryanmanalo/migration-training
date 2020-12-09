@@ -1,0 +1,18 @@
+uuid: 4caa7fdb-3bfd-4044-8091-76cd6baca980
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dog
+id: node.dog.title
+field_name: title
+entity_type: node
+bundle: dog
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
