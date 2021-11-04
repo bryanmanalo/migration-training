@@ -1,0 +1,8 @@
+uuid: f1bf1d8f-86a2-45b4-b42e-aa8767ed6687
+langcode: en
+status: true
+dependencies: {  }
+name: Owner
+vid: owner
+description: ''
+weight: 0

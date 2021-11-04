@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.dog.body
     - field.field.node.dog.field_breed
+    - field.field.node.dog.field_owner
     - field.field.node.dog.field_specialty
     - node.type.dog
   module:
@@ -24,6 +25,14 @@ content:
     region: content
   field_breed:
     weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_owner:
+    weight: 104
     label: above
     settings:
       link: true

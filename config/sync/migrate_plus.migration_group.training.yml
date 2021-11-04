@@ -19,6 +19,7 @@ shared_configuration:
         breed:
           - Chiwawa
           - Highlander
+        owner: 3
         description: 'A dog from Mars'
       -
         id: 2
@@ -29,6 +30,7 @@ shared_configuration:
         breed:
           - German
           - Shepherd
+        owner: 3
         description: 'The greatest showdog from Lucas Arts.'
       -
         id: 3
@@ -37,4 +39,5 @@ shared_configuration:
         breed:
           - Dalmatian
           - Chowchow
+        owner: 3
         description: 'The white dog'

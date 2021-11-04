@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.dog.body
     - field.field.node.dog.field_breed
+    - field.field.node.dog.field_owner
     - field.field.node.dog.field_specialty
     - node.type.dog
   module:
@@ -31,4 +32,5 @@ content:
     region: content
 hidden:
   field_breed: true
+  field_owner: true
   field_specialty: true

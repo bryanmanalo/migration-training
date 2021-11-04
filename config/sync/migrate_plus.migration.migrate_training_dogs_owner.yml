@@ -1,0 +1,37 @@
+uuid: de116202-3a95-4173-8fa5-29b395c65bbx
+langcode: en
+status: true
+dependencies:
+  module:
+    - migrate_plus
+id: migrate_training_dogs_owner
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: training
+label: 'Migrate Training Dogs Owner'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      uid: 1
+      name: 'Bryan'
+    -
+      uid: 2
+      name: 'Vannie'
+    -
+      uid: 3
+      name: 'Cody'
+  constants:
+    one_key: 1
+    format: full_html
+  ids:
+    uid:
+      type: string
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: owner
+migration_dependencies:
+  required: {  }
+  optional: {  }

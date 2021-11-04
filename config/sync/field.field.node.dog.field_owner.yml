@@ -1,0 +1,29 @@
+uuid: c0913559-690b-4fea-8f70-2adaf1ffb92f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_owner
+    - node.type.dog
+    - taxonomy.vocabulary.owner
+id: node.dog.field_owner
+field_name: field_owner
+entity_type: node
+bundle: dog
+label: Owner
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      owner: owner
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.dog.body
     - field.field.node.dog.field_breed
+    - field.field.node.dog.field_owner
     - field.field.node.dog.field_specialty
     - node.type.dog
   module:
@@ -37,6 +38,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: chosen_select
+    region: content
+  field_owner:
+    weight: 124
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_specialty:
     weight: 122
