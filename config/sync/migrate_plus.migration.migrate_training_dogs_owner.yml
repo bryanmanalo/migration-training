@@ -15,13 +15,13 @@ source:
   plugin: embedded_data
   data_rows:
     -
-      uid: 1
+      uid: 10001
       name: 'Bryan'
     -
-      uid: 2
+      uid: 10002
       name: 'Vannie'
     -
-      uid: 3
+      uid: 10003
       name: 'Cody'
   constants:
     one_key: 1
@@ -29,6 +29,8 @@ source:
   ids:
     uid:
       type: string
+process:
+  name: name
 destination:
   plugin: 'entity:taxonomy_term'
   default_bundle: owner
